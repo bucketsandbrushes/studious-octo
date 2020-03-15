@@ -1,0 +1,210 @@
+/** {
+    box-sizing: border-box;
+}*/
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0 5px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-size: 1.1em;
+    line-height: 2;
+    text-align: justify;
+    background-color: black;
+    width: 100%;
+}
+.main {
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 0%, #fd1d1d 100%, #833ab4 0% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main #about {
+    margin: -60px;
+}
+
+body #logo {
+    position: center;
+    width: 345px;
+    height: 300px;
+    margin: 20px;
+    padding: 0;
+}
+
+.main p {
+
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 0%, #fd1d1d 100%, #833ab4 0% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main ul li {
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 0%, #fd1d1d 100%, #833ab4 0% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 62px;
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 25%, #fd1d1d 80%, #833ab4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 25%, #fd1d1d 80%, #833ab4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quote {
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 25%, #fd1d1d 80%, #833ab4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*#services, p, ul, li {
+    text-align: left;
+}*/
+
+.dropbtn {
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 25%, #fd1d1d 80%, #833ab4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+}
+
+.dropdown {
+    position: absolute;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #302e2e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: rgba(0,0,0,0.2);
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+    .dropdown-content a:hover {
+        background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+        background: linear-gradient(to right, #fcb045 25%, #fd1d1d 80%, #833ab4 100% );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+.dropdown:hover .dropdown-content {
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 25%, #fd1d1d 80%, #833ab4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background: linear-gradient(to right, #FDFBFB, #fd1d1d 70%);
+    background: linear-gradient(to right, #fcb045 25%, #fd1d1d 80%, #833ab4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#rumi {
+    background-position: center;
+    width: 352px;
+    height: 400px;
+    padding: 0 2px;
+    margin: 0 10px;
+}
+
+
+.pics {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#pics {
+    width: 325px;
+    height: 400px;
+    padding: 0 2px;
+    margin: 0 10px;
+
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.quote {
+    margin: 0;
+    padding: 1em 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+/* Media Queries */
+@media only screen and (min-device-width: 360px) {
+
+     .pics {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    #pics {
+        width: 330px;
+        height: 400px;
+        padding: 2px;
+        margin: 10px;
+    }
+
+    main p h1 {
+        margin: 0;
+        padding: 10px;
+    }
+
+    main h1 {
+        padding: 5px;
+    }
+
+    .rumi_images #rumi {
+        width: 352px;
+        height: 400px;
+        padding: 0 2px;
+        margin: 0 10px;
+    }
+
+}
